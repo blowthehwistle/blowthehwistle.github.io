@@ -4,6 +4,7 @@
     "commitlint": "^19.5.0"
   },
   "scripts": {
+    "build": "jekyll build", 
     "build": "bundle exec jekyll build",  
     "test": "commitlint --from=HEAD~1 --to=HEAD"
   }
