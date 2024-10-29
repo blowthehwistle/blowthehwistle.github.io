@@ -42,6 +42,9 @@ jobs:
         with:
           node-version: lts/*
 
+      - name: Run HTMLProofer
+        run: |
+          bundle exec htmlproofer ./_site
 
       - name: Build Assets
         run: npm install && npm run build
@@ -49,6 +52,3 @@ jobs:
       - name: Test Site
         run: bash tools/test.sh
 
-      - name: Run HTMLProofer
-        run: |
-          bundle exec htmlproofer ./_site
