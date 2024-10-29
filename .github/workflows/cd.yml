@@ -1,4 +1,4 @@
-name: CD
+name: "CD"
 
 on:
   push:
@@ -21,6 +21,10 @@ jobs:
         with:
           ruby-version: 3.3
           bundler-cache: true
+
+      - name: Install Dependencies
+        run: |
+          bundle install  # 필요한 gem을 설치합니다.
 
       - uses: actions/setup-node@v4
         with:
