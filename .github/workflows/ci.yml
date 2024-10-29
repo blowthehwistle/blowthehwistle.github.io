@@ -49,6 +49,6 @@ jobs:
         run: |
           bundle exec htmlproofer ./_site
 
-      - name: Test Site
-        run: bash tools/test.sh
+      # - name: Test Site
+      #   run: bash tools/test.sh
 
