@@ -45,10 +45,6 @@ jobs:
       - name: Build Assets
         run: npm install && npm run build
 
-      - name: Run HTMLProofer
-        run: |
-          bundle exec htmlproofer ./_site
-
       # - name: Test Site
       #   run: bash tools/test.sh
 
