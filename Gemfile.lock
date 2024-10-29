@@ -24,7 +24,6 @@ GEM
     ethon (0.16.0)
       ffi (>= 1.15.0)
     eventmachine (1.2.7)
-    ffi (1.17.0)
     ffi (1.17.0-aarch64-linux-gnu)
     ffi (1.17.0-aarch64-linux-musl)
     ffi (1.17.0-arm-linux-gnu)
@@ -107,14 +106,10 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.10)
     logger (1.6.1)
     mercenary (0.4.0)
-    mini_portile2 (2.8.7)
     minima (2.5.2)
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
-    nokogiri (1.16.7)
-      mini_portile2 (~> 2.8.2)
-      racc (~> 1.4)
     nokogiri (1.16.7-aarch64-linux)
       racc (~> 1.4)
     nokogiri (1.16.7-arm-linux)
@@ -147,18 +142,9 @@ GEM
     rouge (4.4.0)
     ruby-rc4 (0.1.5)
     safe_yaml (1.0.5)
-    sass-embedded (1.80.4)
-      google-protobuf (~> 4.28)
-      rake (>= 13)
-    sass-embedded (1.80.4-aarch64-linux-android)
-      google-protobuf (~> 4.28)
     sass-embedded (1.80.4-aarch64-linux-gnu)
       google-protobuf (~> 4.28)
     sass-embedded (1.80.4-aarch64-linux-musl)
-      google-protobuf (~> 4.28)
-    sass-embedded (1.80.4-aarch64-mingw-ucrt)
-      google-protobuf (~> 4.28)
-    sass-embedded (1.80.4-arm-linux-androideabi)
       google-protobuf (~> 4.28)
     sass-embedded (1.80.4-arm-linux-gnueabihf)
       google-protobuf (~> 4.28)
@@ -166,27 +152,11 @@ GEM
       google-protobuf (~> 4.28)
     sass-embedded (1.80.4-arm64-darwin)
       google-protobuf (~> 4.28)
-    sass-embedded (1.80.4-riscv64-linux-android)
-      google-protobuf (~> 4.28)
-    sass-embedded (1.80.4-riscv64-linux-gnu)
-      google-protobuf (~> 4.28)
-    sass-embedded (1.80.4-riscv64-linux-musl)
-      google-protobuf (~> 4.28)
-    sass-embedded (1.80.4-x86-cygwin)
-      google-protobuf (~> 4.28)
-    sass-embedded (1.80.4-x86-linux-android)
-      google-protobuf (~> 4.28)
     sass-embedded (1.80.4-x86-linux-gnu)
       google-protobuf (~> 4.28)
     sass-embedded (1.80.4-x86-linux-musl)
       google-protobuf (~> 4.28)
-    sass-embedded (1.80.4-x86-mingw-ucrt)
-      google-protobuf (~> 4.28)
-    sass-embedded (1.80.4-x86_64-cygwin)
-      google-protobuf (~> 4.28)
     sass-embedded (1.80.4-x86_64-darwin)
-      google-protobuf (~> 4.28)
-    sass-embedded (1.80.4-x86_64-linux-android)
       google-protobuf (~> 4.28)
     sass-embedded (1.80.4-x86_64-linux-gnu)
       google-protobuf (~> 4.28)
@@ -205,30 +175,19 @@ GEM
 
 PLATFORMS
   aarch64-linux
-  aarch64-linux-android
   aarch64-linux-gnu
   aarch64-linux-musl
-  aarch64-mingw-ucrt
-  arm-linux-androideabi
+  arm-linux
   arm-linux-gnu
   arm-linux-gnueabihf
   arm-linux-musl
   arm-linux-musleabihf
   arm64-darwin
-  riscv64-linux-android
-  riscv64-linux-gnu
-  riscv64-linux-musl
-  ruby
-  x86-cygwin
   x86-linux
-  x86-linux-android
   x86-linux-gnu
   x86-linux-musl
-  x86-mingw-ucrt
-  x86_64-cygwin
   x86_64-darwin
   x86_64-linux
-  x86_64-linux-android
   x86_64-linux-gnu
   x86_64-linux-musl
 
@@ -248,7 +207,7 @@ DEPENDENCIES
   webrick (~> 1.8)
 
 RUBY VERSION
-   ruby 3.3.0p0
+   ruby 3.2.0p0
 
 BUNDLED WITH
    2.5.22
