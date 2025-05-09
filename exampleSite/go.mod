@@ -1,4 +1,4 @@
-module github.com/hugo-toha/toha/exampleSite
+module github.com/blowthehwistle/blowthehwistle.github.io
 
 go 1.21
 

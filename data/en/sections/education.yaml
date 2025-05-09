@@ -1,0 +1,96 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: B.S in Computer Science
+  icon: fa-microscope
+  timeframe: 2020-2026(Expected)
+  institution:
+    name: Sogang University
+    url: "#"
+    logo: /images/education/sogang.png # Path of the logo image
+    darkLogo: /images/education/sogang.png #(optional), Can optionally show a different logo for dark theme
+  grade: #(optional)
+    scale: CGPA
+    achieved: 3.5
+    outOf: 4
+  takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: true
+    collapseAfter: 3
+    courses:
+    - name: Data Structures and Algorithm
+      achieved: 3.75
+      outOf: 4
+    - name: Network Security
+      achieved: 3.80
+      outOf: 4
+    - name: Operating System
+      achieved: 3.5
+      outOf: 4
+    - name: Artificial Intelligent
+      achieved: 3.75
+      outOf: 4
+
+- name: Exchange Student
+  icon: fa-microscope
+  timeframe: Jan 2025 - May 2025
+  institution:
+    name: University at Buffalo
+    url: "#"
+    logo: /images/education/ub.png # Path of the logo image
+    darkLogo: /images/education/ub.png #(optional), Can optionally show a different logo for dark theme
+  grade: #(optional)
+    scale: CGPA
+    achieved: 3.5
+    outOf: 4
+  takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: true
+    collapseAfter: 3
+    courses:
+    - name: Distributed Systems
+      achieved: 3.75
+      outOf: 4
+    - name: Experimental Learning & Research
+      achieved: 3.5
+      outOf: 4
+
+
+- name: Hacking Defence 
+  icon: fa-microscope
+  timeframe: 2017-2020
+  institution:
+    name: Korea Digital Media High School
+    url: "#"
+    logo: /images/education/kdmhs.png # Path of the logo image
+    darkLogo: /images/education/kdmhs.png #(optional), Can optionally show a different logo for dark theme
+  grade: #(optional)
+    scale: CGPA
+    achieved: 3.5
+    outOf: 4
+  takenCourses: #(optional)
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: true
+    collapseAfter: 3
+    courses:
+    - name: Data Structures and Algorithm
+      achieved: 3.75
+      outOf: 4
+    - name: Network Security
+      achieved: 3.80
+      outOf: 4
+    - name: Operating System
+      achieved: 3.5
+      outOf: 4
+    - name: Artificial Intelligent
+      achieved: 3.75
+      outOf: 4
