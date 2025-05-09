@@ -5,7 +5,7 @@ hero: /images/posts/writing-posts/git.svg
 menu:
   sidebar:
     name: Py-GraSPI
-    identifier: getting-started-github
+    identifier: pygraspi
     parent: Projects
     weight: 10
 ---

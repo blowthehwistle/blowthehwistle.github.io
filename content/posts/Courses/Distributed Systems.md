@@ -5,7 +5,7 @@ hero: /images/posts/writing-posts/git.svg
 menu:
   sidebar:
     name: Distributed Systems
-    identifier: getting-started-github
+    identifier: cse486
     parent: Courses
     weight: 10
 ---
