@@ -1,0 +1,29 @@
+# section information
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+buttons:
+- name: All
+  filter: "all"
+- name: Group Project
+  filter: "Group Project"
+- name: Academic
+  filter: "academic"
+- name: Hobby
+  filter: "hobby"
+
+projects:
+- name: Py-GraSPI
+  logo: images/projects/kubernetes.png
+  role: Contributor
+  timeline: "January 2025 - May 2025"
+  # url: "https://naver.com"
+  repo: https://github.com/owodolab/py-graspi
+  summary: Production-Grade Container Scheduling and Management .
+  tags: ["Python", "Group Project"]
