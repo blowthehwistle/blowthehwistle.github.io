@@ -1,31 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Projects on </title>
-    <link>http://localhost:1313/posts/projects/</link>
-    <description>Recent content in Projects on </description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Fri, 09 May 2025 06:00:20 +0600</lastBuildDate><atom:link href="http://localhost:1313/posts/projects/index.xml" rel="self" type="application/rss+xml" /><item>
-      <title>Py-GraSPI</title>
-      <link>http://localhost:1313/posts/projects/py-graspi/</link>
-      <pubDate>Fri, 09 May 2025 06:00:20 +0600</pubDate>
-      
-      <guid>http://localhost:1313/posts/projects/py-graspi/</guid>
-      <description>&lt;h3 id=&#34;contents&#34;&gt;Contents&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;#what-is-py-graspi&#34;&gt;what is Py-GraSPI?&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#the-problem-i-tried-to-solve&#34;&gt;The problem I tried to solve?&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#how-did-you-solve-the-problem&#34;&gt;how did you solve the problem?&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#what-did-you-learn&#34;&gt;What did you learn?&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;what-is-py-graspi&#34;&gt;What is Py-GraSPI?&lt;/h2&gt;
-&lt;p&gt;Py-GraSPI(Graph-based Structure Property Identifier) is a Python package designed to compute a comprehensive set of descriptors for segmented microstructures using a graph-based approach.&lt;/p&gt;
-&lt;p&gt;I contributed in Spring 2025, in the class named &lt;em&gt;Experimental Learning and Research (CSE302)&lt;/em&gt; at University at Buffalo during my exchange program.&lt;/p&gt;
-&lt;h2 id=&#34;the-problem-i-tried-to-solve&#34;&gt;The problem I tried to solve&lt;/h2&gt;
-&lt;p&gt;There were two problems to solve:&lt;/p&gt;</description>
-    </item>
-    
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects on</title><link>https://blowthehwistle.github.io/posts/projects/</link><description>Recent content in Projects on</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 09 May 2025 06:00:20 +0600</lastBuildDate><atom:link href="https://blowthehwistle.github.io/posts/projects/index.xml" rel="self" type="application/rss+xml"/><item><title>Py-GraSPI</title><link>https://blowthehwistle.github.io/posts/projects/py-graspi/</link><pubDate>Fri, 09 May 2025 06:00:20 +0600</pubDate><guid>https://blowthehwistle.github.io/posts/projects/py-graspi/</guid><description>&lt;h3 id="contents">Contents&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="#what-is-py-graspi">what is Py-GraSPI?&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#the-problem-i-tried-to-solve">The problem I tried to solve?&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#how-did-you-solve-the-problem">how did you solve the problem?&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#what-did-you-learn">What did you learn?&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-is-py-graspi">What is Py-GraSPI?&lt;/h2>
+&lt;p>Py-GraSPI(Graph-based Structure Property Identifier) is a Python package designed to compute a comprehensive set of descriptors for segmented microstructures using a graph-based approach.&lt;/p>
+&lt;p>I contributed in Spring 2025, in the class named &lt;em>Experimental Learning and Research (CSE302)&lt;/em> at University at Buffalo during my exchange program.&lt;/p>
+&lt;h2 id="the-problem-i-tried-to-solve">The problem I tried to solve&lt;/h2>
+&lt;p>There were two problems to solve:&lt;/p></description></item></channel></rss>
