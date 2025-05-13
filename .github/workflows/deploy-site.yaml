@@ -46,4 +46,12 @@ jobs:
     - name: Debug public contents
       run: |
         echo "Built files:"
-        find public -type f | head -n 20
+        find public -type f || echo "Nothing built. Check hugo build output."
+        ls -lah public || true
+
+    - name: Fail if public is empty
+        run: |
+          if [ -z "$(ls -A public)" ]; then
+            echo "public/ is empty. Build likely failed."
+            exit 1
+        fi

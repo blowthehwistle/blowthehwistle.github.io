@@ -32,8 +32,6 @@ Professor Wodo(client of this project) wants to improve the code so that lower t
 In previous code, constructing graph code was too complicated to understand the process. She also wanted to simplify the code so that users can understand how it works more easily.  
 
 ## How did you solve the Problem?
-![graph_construction_process_compare](/images/py-graspi/graph_const.png)
-
 ![graph_construction_process_compare](graph_const.png)
 
 
