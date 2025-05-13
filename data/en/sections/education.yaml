@@ -27,18 +27,21 @@ degrees:
     showGrades: true
     collapseAfter: 3
     courses:
-    - name: Data Structures and Algorithm
-      achieved: 3.75
-      outOf: 4
-    - name: Network Security
-      achieved: 3.80
-      outOf: 4
+    - name: System Programming
+      achieved: 4.3
+      outOf: 4.3
     - name: Operating System
-      achieved: 3.5
-      outOf: 4
-    - name: Artificial Intelligent
-      achieved: 3.75
-      outOf: 4
+      achieved: 3.9
+      outOf: 4.3
+    - name: Computer Architecture
+      achieved: 4.3
+      outOf: 4.3
+    - name: Programming Language
+      achieved: 4.3
+      outOf: 4.3
+    - name: Introduction to Deep Learning
+      achieved: 4.3
+      outOf: 4.3
 
 - name: Exchange Student
   icon: fa-microscope
