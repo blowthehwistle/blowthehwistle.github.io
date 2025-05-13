@@ -1,57 +1,55 @@
 name: Deploy to Github Pages
 
-# run when a commit is pushed to "source" branch
 on:
   push:
     branches:
-    - main
+      - main
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-    # checkout to the commit that has been pushed
-    - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-    - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v3
-      with:
-        hugo-version: 'latest'
-        extended: true
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: 'latest'
+          extended: true
 
-    - name: Update Hugo Modules
-      run: hugo mod tidy
+      - name: Update Hugo Modules
+        run: hugo mod tidy
 
-    - name: Setup Node
-      uses: actions/setup-node@v4
-      with:
-        node-version: 20
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
 
-    - name: Install node modules
-      run: |
-        hugo mod npm pack
-        npm install
+      - name: Install node modules
+        run: |
+          hugo mod npm pack
+          npm install
 
-    - name: Build
-      run: hugo --minify
+      - name: Build to /docs
+        run: hugo --minify --destination docs
 
-    # push the generated content into the `gh-pages` branch.
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v4
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_branch: gh-pages
-        publish_dir: ./public
+      - name: Debug docs contents
+        run: |
+          echo "Built files:"
+          find docs -type f || echo "Nothing built. Check hugo build output."
+          ls -lah docs || true
 
-    - name: Debug public contents
-      run: |
-        echo "Built files:"
-        find public -type f || echo "Nothing built. Check hugo build output."
-        ls -lah public || true
+      - name: Fail if docs is empty
+        run: |
+          if [ -z "$(ls -A docs)" ]; then
+            echo "docs/ is empty. Build likely failed."
+            exit 1
+          fi
 
-    - name: Fail if public is empty
-      run: |
-        if [ -z "$(ls -A public)" ]; then
-          echo "public/ is empty. Build likely failed."
-          exit 1
-        fi
+      - name: Commit built docs to main
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add docs
+          git commit -m "Deploy updated docs"
+          git push
