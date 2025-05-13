@@ -1,6 +1,6 @@
 baseURL: https://blowthehwistle.github.io/
 gitRepo: https://github.com/blowthehwistle/blowthehwistle.github.io
-publishDir: public
+publishDir: docs
 
 module:
   hugoVersion:

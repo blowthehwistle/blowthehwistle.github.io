@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on </title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 09 May 2025 06:00:20 +0600</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Py-GraSPI</title>
+      <link>http://localhost:1313/posts/projects/py-graspi/</link>
+      <pubDate>Fri, 09 May 2025 06:00:20 +0600</pubDate>
+      
+      <guid>http://localhost:1313/posts/projects/py-graspi/</guid>
+      <description>&lt;h3 id=&#34;contents&#34;&gt;Contents&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#what-is-py-graspi&#34;&gt;what is Py-GraSPI?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#the-problem-i-tried-to-solve&#34;&gt;The problem I tried to solve?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#how-did-you-solve-the-problem&#34;&gt;how did you solve the problem?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#what-did-you-learn&#34;&gt;What did you learn?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;what-is-py-graspi&#34;&gt;What is Py-GraSPI?&lt;/h2&gt;
+&lt;p&gt;Py-GraSPI(Graph-based Structure Property Identifier) is a Python package designed to compute a comprehensive set of descriptors for segmented microstructures using a graph-based approach.&lt;/p&gt;
+&lt;p&gt;I contributed in Spring 2025, in the class named &lt;em&gt;Experimental Learning and Research (CSE302)&lt;/em&gt; at University at Buffalo during my exchange program.&lt;/p&gt;
+&lt;h2 id=&#34;the-problem-i-tried-to-solve&#34;&gt;The problem I tried to solve&lt;/h2&gt;
+&lt;p&gt;There were two problems to solve:&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Distributed Systems</title>
+      <link>http://localhost:1313/posts/courses/distributed-systems/</link>
+      <pubDate>Mon, 08 Jun 2020 06:00:20 +0600</pubDate>
+      
+      <guid>http://localhost:1313/posts/courses/distributed-systems/</guid>
+      <description>&lt;h3 id=&#34;complete-post-coming-soon&#34;&gt;Complete Post Coming Soon&amp;hellip;&lt;/h3&gt;</description>
+    </item>
+    
+    
+  </channel>
+</rss>
