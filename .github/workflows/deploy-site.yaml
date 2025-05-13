@@ -50,8 +50,8 @@ jobs:
         ls -lah public || true
 
     - name: Fail if public is empty
-        run: |
-          if [ -z "$(ls -A public)" ]; then
-            echo "public/ is empty. Build likely failed."
-            exit 1
+      run: |
+        if [ -z "$(ls -A public)" ]; then
+          echo "public/ is empty. Build likely failed."
+          exit 1
         fi
